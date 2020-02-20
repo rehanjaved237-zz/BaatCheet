@@ -1,3 +1,5 @@
+import 'package:baatcheet/screens/authScreen1.dart';
+import 'package:baatcheet/screens/splashScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:baatcheet/screens/homeScreen.dart';
 
@@ -13,7 +15,9 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
         accentColor: Colors.green,
       ),
-      home: HomeScreen(),
+//      home: HomeScreen(),
+    home: SplashScreen()
+      //AuthenticationScreen1(),
     );
   }
 }
